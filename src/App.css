@@ -41,3 +41,11 @@ a {
   color: #918E9B;
 
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+}
