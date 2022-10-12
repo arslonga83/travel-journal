@@ -30,7 +30,8 @@
 }
 
 .photo {
-  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
   height: 168px;
   margin: 24px;
   border-radius: 9px;
