@@ -1,18 +1,18 @@
 import icon from '../assets/pin.png'
 
-function Card () {
+function Card (props) {
   return (
     <div className='card'>
-      <img src='https://source.unsplash.com/3PeSjpLVtLg' className='photo'/>
+      <img src={props.image} className='photo'/>
       <div className='content-side'>
         <div className='content-header'>
           <img src={icon}/>
-          <h4>COUNTRY</h4>
-          <p><a href=''>Google map link</a></p>
+          <h4>{props.location}</h4>
+          <p><a href={props.link}>Google map link</a></p>
         </div>
-        <h1>Location Name</h1>
-        <h3>1 Jan, 2022 - 31 Jan, 2022</h3>
-        <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus magni obcaecati adipisci eius. Quaerat excepturi molestias dolores possimus aperiam delectus corporis quibusdam laborum assumenda temporibus? Minima sequi nam nulla!</p>
+        <h1>{props.title}</h1>
+        <h3>{props.startDate} - {props.endDate}</h3>
+        <p className='description'>{props.description}</p>
       </div>
       
     </div>
