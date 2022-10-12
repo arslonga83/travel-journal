@@ -7,3 +7,37 @@
   padding: 24px;
   gap: 12px;
 }
+
+.card {
+  display: flex;
+  align-items: center;
+  color: #2B283A;
+  padding: 24px;
+  max-width: 1100px;
+  
+ 
+}
+
+.photo {
+  width: 125px;
+  height: 168px;
+  margin: 24px;
+  border-radius: 9px;
+}
+
+.content-side {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  color: #918E9B;
+
+}
