@@ -1,6 +1,11 @@
+import icon from '../assets/globe.png'
+
 function Header () {
   return (
-    <h1>I'm a header component.</h1>
+    <header className='header'>
+      <img src={icon}/>
+      <h1>my travel journal</h1>
+    </header>
   )
 }
 
